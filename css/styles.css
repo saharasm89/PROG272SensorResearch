@@ -1,0 +1,88 @@
+@charset  "UTF-8";
+
+HTML, body {
+       background-image: url("../img/andy.jpg") ;
+       margin: 0px;
+       padding: 0px;
+       border: 0px;
+
+       color: rgb(47, 255, 75);
+
+}      
+
+body {
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    
+}
+
+h1 {
+    color: rgb(47, 255, 75);
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+h2 {
+    color: rgb(47, 255, 75);
+    padding-left: 35px;
+    text-decoration-line: underline;
+    
+}
+
+.foo {
+    color: rgb(47, 255, 75);
+    text-align: center;
+}
+
+p1 {
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    
+}
+
+ol p {
+    color: white;
+}
+
+p[class="foo"] {
+    color: rgb(47, 255, 75);
+}
+
+
+a[href="#a"] {
+    color:rgb(47, 255, 75);
+}
+
+a[href="#b"] {
+    color: rgb(47, 255, 75);
+}
+
+a[href="#c"] {
+    color: rgb(47, 255, 75);
+}
+
+
+a[href="../ThreeWebResources/ThreeWebResources.html"] {
+    color: rgb(47, 255, 75);
+}
+
+a[href=""] {
+    color: rgb(47, 255, 75);
+}
+
+a[href="https://www.youtube.com/watch?v=CxC1KCoGbIM"] {
+    color: rgb(47, 255, 75);
+}
+
+a[href="http://www.mobilecellphonerepairing.com/mobile-phone-sensors-types-of-sensors-in-smartphone.html"] {
+    color: rgb(47, 255, 75);
+}
+
+a[href="https://cprimestudios.com/blog/main-types-mobile-sensors-and-their-data-capturing-opportunities"] {
+    color: rgb(47, 255, 75);
+}
+
